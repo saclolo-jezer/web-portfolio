@@ -1,5 +1,5 @@
 body{
-	background-image: url(../images/bglamp.jpg);
+	background-image: url(../images/bglight.jpg);
 	background-position: center center;
 	background-size: cover;
 	-webkit-background-size: cover;
@@ -13,7 +13,7 @@ body{
 
 h1	{
 	font-size: 50px;
-	background-color: #333; /*off black*/
+	background-color: rgba(51, 51, 51, 0.7);
 	text-transform: uppercase;
 	margin-bottom: 0;
 	letter-spacing: 3px;
@@ -22,7 +22,8 @@ h1	{
 h2 {
 	text-transform: uppercase;
 	letter-spacing: 5px;
-	color: yellow;
+	color: white;
+	background-color: rgba(51, 51, 51, 0.7);
 }
 
 #me {
@@ -38,7 +39,7 @@ h2 {
 	width: 100%;
 	font-size: 18px;
 	line-height: 1.5;
-	background-color: rgba(51, 51, 51, 0.8);
+	background-color: rgba(51, 51, 51, 0.7);
 	/*background-color: #333;
 	opacity: 0.5;*/
 
